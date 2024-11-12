@@ -13,7 +13,7 @@ Implement the following approaches and compare their performance:
   - take various operators (sum, product, min, max) 
 2. GPU Reduction
   - shared memory
-  - multi-kernel, handle arrays > 2x shared mem size (> 2048)
+  - multi-kernel, handle arrays > 2x shared mem size (> 2048) 
 3. GPU Reduction w/ less Thread Divergence
 
 ## Histogram
