@@ -12,7 +12,7 @@ __global__ void gpuReduct(float* arr, char opperation){
         __syncthreads();
         if (globalIdx % i == 0){
             // initialize values for threads to use
-            int idx1 = globalIdx * 2 ;
+            int idx1 = globalIdx * 2;
             float val1 = arr[idx1];
             int idx2 = (globalIdx * 2) + i;
             float val2 = arr[idx2];
