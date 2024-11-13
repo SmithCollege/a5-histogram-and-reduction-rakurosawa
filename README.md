@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/560MyzRr)
 # A5. Reduction and Histogram
 
 Due Date: 11/13 at midnight
@@ -12,7 +13,7 @@ Implement the following approaches and compare their performance:
   - take various operators (sum, product, min, max) 
 2. GPU Reduction
   - shared memory
-  - multi-kernel, handle arrays > 2x shared mem size (> 2048)
+  - multi-kernel, handle arrays > 2x shared mem size (> 2048) 
 3. GPU Reduction w/ less Thread Divergence
 
 ## Histogram
